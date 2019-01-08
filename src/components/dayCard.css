@@ -1,0 +1,20 @@
+.card{
+  margin: 10px;
+  text-align: center;
+  background: #208075;
+  color: white;
+}
+
+.szia-david{
+  background-color: peachpuff;
+}
+
+.card:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
