@@ -17,6 +17,7 @@ class App extends Component {
   temps = [];
 
   componentDidMount() {
+    //TODO: Refactor by Norbert aki egy kiraJ
     this.state.cities.forEach((city) => {
       fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.name}&units=metric&APPID=223f47396554c887b340484e1e0ab958`)
         .then(res => res.json())
