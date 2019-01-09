@@ -53,12 +53,12 @@ class App extends Component {
           { //ternary operation. condition ? true : false. If temperatures array is empty that means we are still fetching data
             //so lets show a loading div. If its not empty we loop throught the array and render CityCards
             this.state.temperatures.length < 1 ? 
-            <div> Loading ...</div> :
-            this.state.cities.map((city, index) => {
-              return (
-                <CityCard name={city.name} temp={this.state.temperatures[index].main.temp} key={index}></CityCard>
-              )
-            })
+              <div> Loading ...</div> :
+              this.state.cities.map((city, index) => {
+                return (
+                  <CityCard name={city.name} temp={this.state.temperatures[index].main.temp} key={index}></CityCard>
+                )
+              })
           }
         </div>
       </div>
