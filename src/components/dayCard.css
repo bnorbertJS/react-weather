@@ -1,8 +1,11 @@
 .card{
+  width: 125px;
+  height: 260px;
   margin: 10px;
   text-align: center;
   background: #208075;
   color: white;
+  padding: 5px;
 }
 
 .szia-david{
@@ -17,4 +20,8 @@
 img {
   width: 100px;
   height: 100px;
+}
+
+h4{
+  margin: 0;
 }
